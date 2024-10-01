@@ -20,14 +20,12 @@ type Position = (Int, Int)
 
 startingObjects :: World
 startingObjects = [
-		(Wall, (0,0)),
-		(Box, (2, 0)),
-		(Box, (3, 0)),
-		(Box, (5, 0)),
-		(Box, (7, 0)),
-		(Player, (8, 0)),
-		(Box, (8, -1)),
-		(Wall, (9, 0))
+		(Wall, (0,0)), (Wall, (1,0)), (Wall, (2,0)), (Wall, (3,0)), (Wall, (4,0)), (Wall, (5,0)), (Wall, (6,0)), (Wall, (7,0)), (Wall, (8,0)), (Wall, (9,0)),
+		(Wall, (0,1)), (Wall, (9,1)),
+		(Wall, (0,2)), (Box, (2, 2)), (Box, (3, 2)), (Box, (5, 2)), (Box, (7, 2)), (Player, (8, 2)), (Wall, (9, 2)),
+		(Wall, (0,3)), (Box, (5, 3)), (Wall, (9,3)),
+		(Wall, (0,4)), (Box, (7, 4)), (Wall, (9,4)),
+		(Wall, (0,5)), (Wall, (1,5)), (Wall, (2,5)), (Wall, (3,5)), (Wall, (4,5)), (Wall, (5,5)), (Wall, (6,5)), (Wall, (7,5)), (Wall, (8,5)), (Wall, (9,5))
 		]
 
 main :: IO ()
