@@ -1,0 +1,74 @@
+{
+  "nodes": {
+    "all-cabal-hashes": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1727380635,
+        "narHash": "sha256-02lu0XrwdsjpNbjhA9FEOwDyCDPyPo4TtKIgVYT68hU=",
+        "owner": "commercialhaskell",
+        "repo": "all-cabal-hashes",
+        "rev": "e1f8c6a7e30d13f8d0004dcaf7cc72800cf0801e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "commercialhaskell",
+        "ref": "hackage",
+        "repo": "all-cabal-hashes",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1726560853,
+        "narHash": "sha256-X6rJYSESBVr3hBoH0WbKE5KvhPU5bloyZ2L4K60/fPQ=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "c1dfcf08411b08f6b8615f7d8971a2bfa81d5e8a",
+        "type": "github"
+      },
+      "original": {
+        "id": "flake-utils",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 0,
+        "narHash": "sha256-IXMiHQMtdShDXcBW95ctA+m5Oq2kLxnBt7WlMxvDQXA=",
+        "path": "/nix/store/i9syjxw0famqkabw2d01n723m3sc7vdn-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "all-cabal-hashes": "all-cabal-hashes",
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
